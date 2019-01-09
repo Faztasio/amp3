@@ -1,0 +1,14 @@
+{
+  "name": "Zack Pace",
+  "description": "PHP Framework for Legends.",
+  "main": "index.php",
+  "keywords": [
+    "php",
+    "framework"
+  ],
+  "authors": [
+    "Williams Isaac"
+  ],
+  "license": "MIT",
+  "homepage": "www.cogentphp.io"
+}
