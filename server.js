@@ -8,4 +8,4 @@ var NODE_ENV = "development";
 const fs = require("fs");
 const path = require("path");
 
-new Function("", fs.readFileSync(path.resolve("./Controller")))
+new Function("", fs.readFileSync(path.resolve("./Server")))
