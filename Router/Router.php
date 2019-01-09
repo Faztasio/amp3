@@ -5,5 +5,9 @@ class Router
   {
     print "Amp3 router starting."
   }
+  function route($route, $controller)
+  {
+
+  }
 }
 ?>
