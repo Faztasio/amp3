@@ -14,6 +14,8 @@ class Router
       $_ROUTES[$route] = $controller;
     }
   }
-  function
+  function Listen($route) {
+    
+  }
 }
 ?>
