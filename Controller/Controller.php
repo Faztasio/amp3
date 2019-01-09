@@ -12,14 +12,14 @@ class Controller
   {
     $_CONTROLLERS[$name] = $callback;
   }
-  function Call($name)
+  function Call($name, $route)
   {
     call_user_func($_CONTROLLERS[$name], [
       Create => ampdb_create,
       Set => ampdb_set,
       Get_All => ampdb_get_all,
       Get => ampdb_get
-    ]);
+    ], explode('/', $route));
   }
 }
 ?>

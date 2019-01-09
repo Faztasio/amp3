@@ -23,12 +23,12 @@ class Router
     {
       if($_ROUTES["*"])
       {
-        Controller->Call($_ROUTES["*"]);
+        Controller->Call($_ROUTES["*"], $route);
       }
     }
     else
     {
-      Controller->Call($_ROUTES[$route]);
+      Controller->Call($_ROUTES[$route], $route);
     }
   }
 }
