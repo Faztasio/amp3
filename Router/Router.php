@@ -6,9 +6,15 @@ class Router
   {
     print "Amp3 router starting."
   }
-  function route($route, $controller)
+  function Page($route, $controller)
   {
+    if($route === "") {
+      $route = "/";
+    } elseif($route == "*") {
+      
+    }
     $_ROUTES[$route] = $controller;
   }
+  function
 }
 ?>
