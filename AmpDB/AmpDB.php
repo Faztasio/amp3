@@ -12,6 +12,7 @@ function ampdb_set($db, $key, $value)
 }
 function ampdb_get_all($db, $key, $value)
 {
-  return json_decode(fread(fopen($db), "a"),)
+  return json_decode(fread(fopen($db, "a")))
 }
+function ampdb_get($db)
 ?>
