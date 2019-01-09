@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/faztasio/amp3/issues"
   },
-  "homepage": "https://github.com/faztasio/amp3#readme"
+  "homepage": "https://github.com/faztasio/amp3#readme",
+  "bin": {
+    "amp3-server": "./server.js"
+  }
 }
