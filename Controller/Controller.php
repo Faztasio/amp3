@@ -14,7 +14,12 @@ class Controller
   }
   function Call($name)
   {
-    call_user_func($_CONTROLLERS[$name], ampDB);
+    call_user_func($_CONTROLLERS[$name], [
+      Create => ampdb_create,
+      Set => ampdb_set,
+      Get_All => ampdb_get_all,
+      Get => ampdb_get
+    ]);
   }
 }
 ?>
