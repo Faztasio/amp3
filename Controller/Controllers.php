@@ -1,5 +1,8 @@
 <?php
 include "./Controller.php";
 
-$Controller->Create()
+$Controller->Create('amp3.homepage', function(ampdb, route)
+{
+  
+})
 ?>
