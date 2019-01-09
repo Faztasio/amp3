@@ -3,5 +3,5 @@ include "./Router.php";
 
 $Router = new Router();
 
-$Router->Page('')
+$Router->Page("/", "amp3.homepage")
 ?>

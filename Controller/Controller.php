@@ -1,5 +1,5 @@
 <?php
-include "./AmpDB.php";
+include "../AmpDB/AmpDB.php";
 
 class Controller
 {
