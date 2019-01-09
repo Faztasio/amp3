@@ -19,9 +19,16 @@ class Router
   }
   function Listen($route) {
     $keys = array_keys($_ROUTES);
-    if
-    foreach($key in $keys) {
-
+    if(!$_ROUTES[$route])
+    {
+      if($_ROUTES["*"])
+      {
+        Controller->Call($_ROUTES["*"])
+      }
+    }
+    else
+    {
+      Controller->Call($_ROUTES[$route])
     }
   }
 }
