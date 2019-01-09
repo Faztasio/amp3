@@ -6,7 +6,7 @@ class Router
   $_ROUTES = {};
   function __construct()
   {
-    print "Amp3 router starting."
+    print "Amp3 Router starting."
   }
   function Page($route, $controller)
   {
