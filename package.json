@@ -37,5 +37,8 @@
   "homepage": "https://github.com/faztasio/amp3#readme",
   "bin": {
     "amp3-server": "./server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
