@@ -1,5 +1,5 @@
 <?php
 include "./Controller.php";
 
-$Controller->C
+$Controller->Create()
 ?>
