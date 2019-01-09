@@ -18,7 +18,7 @@ class Router
     }
   }
   function Listen($route) {
-    
+    $keys = array_keys($_ROUTES);
   }
 }
 ?>
