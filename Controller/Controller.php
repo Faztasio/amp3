@@ -1,4 +1,6 @@
 <?php
+include "";
+
 class Controller
 {
   $_CONTROLLERS = {};
@@ -8,7 +10,11 @@ class Controller
   }
   function Create($name, $callback)
   {
-    
+    $_CONTROLLERS[$name] = $callback;
+  }
+  function Call($name)
+  {
+    call_user_func($_CONTROLLERS[$name], ampDB);
   }
 }
 ?>
