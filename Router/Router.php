@@ -12,12 +12,13 @@ class Router
   {
     if($route === "") {
       $route = "/";
+      $_ROUTES[$route] = $controller;
     } elseif($route == "*") {
       $_ROUTES[$route] = $controller;
     }
   }
   function Listen($route) {
-
+    
   }
 }
 ?>
