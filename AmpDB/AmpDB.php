@@ -10,7 +10,7 @@ function ampdb_set($db, $key, $value)
   $json[$key] = $value;
   fwrite(fopen($db, "a"), json_encode($json))
 }
-function ampdb_get_all($db, $key, $value)
+function ampdb_get_all($db)
 {
   return json_decode(fread(fopen($db, "a")))
 }
