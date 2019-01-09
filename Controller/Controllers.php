@@ -4,6 +4,8 @@ $Controller = new Controller();
 
 $Controller->Create("amp3.homepage", function($ampdb, $route)
 {
-  if($route[0] === "")
+  if($route[0] === "set") {
+    $
+  }
 })
 ?>
