@@ -14,5 +14,8 @@ function ampdb_get_all($db)
 {
   return json_decode(fread(fopen($db, "a")))
 }
-function ampdb_get($db)
+function ampdb_get($db, $key)
+{
+  return json_decode(fread(fopen($db, "a")))[$key]
+}
 ?>
