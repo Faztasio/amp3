@@ -11,9 +11,8 @@ class Router
     if($route === "") {
       $route = "/";
     } elseif($route == "*") {
-      
+      $_ROUTES[$route] = $controller;
     }
-    $_ROUTES[$route] = $controller;
   }
   function
 }
