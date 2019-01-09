@@ -1,7 +1,7 @@
 <?php
 class Controller
 {
-  $list
+  $_CONTROLLERS = {};
   function __construct()
   {
     print "Amp3 Controller starting."
