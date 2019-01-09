@@ -1,1 +1,3 @@
-include 'asdasd';
+<?php
+include 'Router/Routes.php';
+?>
