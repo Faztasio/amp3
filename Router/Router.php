@@ -8,7 +8,7 @@ class Router
   }
   function route($route, $controller)
   {
-    $
+    $_ROUTES[$route] = $controller;
   }
 }
 ?>
